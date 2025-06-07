@@ -1,6 +1,5 @@
 - name: Deploy Maven Artifact
-  hosts: localhost
-  become: no
+  hosts: local
   tasks:
     - name: Create deployment directory 
       debug:
